@@ -1,10 +1,7 @@
 using System;
 
 class Program {
-  public static void Main (string[] args)  
-  {
-
-
+  public static void Main (string[] args) {
     Console.WriteLine("Input Number 1: ");
       double num1 = Double.Parse(Console.ReadLine());
 
@@ -22,11 +19,9 @@ class Program {
 
     double quotient = num1 / num2;
       Console.WriteLine("The quotient is: " + quotient);
-      
 
-
-
-
-    
+    double remainder = num1 % num2;
+      Console.WriteLine("The remainder is: " + remainder); 
+    //time taken to finish: 20-25 mins
   }
 }
